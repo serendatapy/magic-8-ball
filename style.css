@@ -18,16 +18,24 @@ body {
     justify-content: center;
     flex-flow: column;
   }
-  .ball, .button {
+  .ball { /*new style*/
+    /*margin: 0 auto;*/
+    margin: 15% 3% 15% 3%;
+  }
+  .button {
     margin: 0 auto;
   }
+  img {
+    height:285px;
+  }
+
   .answer {
     position:absolute;
-    width:70px;
+    width:65px;
     left:50%;
-    margin-top:-2em;
-    margin-left:-1.5em;
-    font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
+    margin-top:-2.5em;
+    margin-left:-2.5em;
+    font: 0.6em 'Open Sans', Helvetica, Arial, sans-serif;
     color: #222;
     text-transform: uppercase;
   }
@@ -38,7 +46,8 @@ body {
     border: none;
     color: #f8f8f8;
     background-color: #f16059;
-    padding: 10px 75px;
+    /*padding: 10px 75px;*/
+    padding: 15px 20px;
     display: block;
     margin: 0 auto;
   }
@@ -48,7 +57,8 @@ body {
     text-align: center;
   }
   header span {
-    font-size: 60px;
+    /*font-size: 60px;*/
+    font-size: 1em;
     color: #f16059;
   }
 
@@ -63,3 +73,17 @@ body {
     font-size: 12px;
   }
 
+  @media only screen and (min-width: 768px) {
+    /*Tablet styles here*/
+    header span {
+      font-size: 60px;
+    }
+
+    h1 {
+      font-size: 2em; /*new style*/
+    }
+
+    .ball {
+      margin: 0 auto;
+    }
+  }
