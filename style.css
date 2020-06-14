@@ -15,16 +15,35 @@ body {
   }
   .ball {
     display: flex;
-    justify-content: center;
-    flex-flow: column;
+    /*justify-content: center;*/
+    /*flex-flow: column;*/
   }
   .ball { /*new style*/
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     /*margin: 15% 3% 15% 3%;*/
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+  }
+  .ball img{ /*new style*/
+    /*margin: 0 auto;*/
+    /*margin: 15% 3% 15% 3%;*/
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   .button {
     margin: 0 auto;
   }
+  /*
+  Look at the unplugged project for proportionate image sizing TIPS
+
+  */
   /*img {
     height:285px;
   }*/
