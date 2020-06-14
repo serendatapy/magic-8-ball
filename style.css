@@ -14,19 +14,18 @@ body {
     margin: 0 auto;
   }
   .ball {
-    display: flex;
+    /*display: flex;*/
     /*justify-content: center;*/
     /*flex-flow: column;*/
   }
   .ball { /*new style*/
-    /*margin: 0 auto;*/
+    margin: 0 auto;
     /*margin: 15% 3% 15% 3%;*/
-    width: 100%;
+    width: 80%;
     height: 0;
-    padding-bottom: 100%;
+    padding-bottom: 80%;
     overflow: hidden;
     position: relative;
-    margin: 0;
   }
   .ball img{ /*new style*/
     /*margin: 0 auto;*/
@@ -41,7 +40,8 @@ body {
     margin: 0 auto;
   }
   /*
-  Look at the unplugged project for proportionate image sizing TIPS
+  Look at the unplugged project for proportionate image sizing TIPS (Done)
+  Sort it out with percentages, and see if you can fix text sizing
 
   */
   /*img {
@@ -50,11 +50,11 @@ body {
 
   .answer {
     position:absolute;
-    width:65px;
-    left:50%;
-    margin-top:-2.5em;
-    margin-left:-2.5em;
-    font: 0.6em 'Open Sans', Helvetica, Arial, sans-serif;
+    width:20%;
+    left:37%;
+    margin-top: 30.5%;
+    margin-left: 6%;
+    font: 0.55em 'Open Sans', Helvetica, Arial, sans-serif;
     color: #222;
     text-transform: uppercase;
   }
@@ -104,5 +104,16 @@ body {
 
     .ball {
       margin: 0 auto;
+    }
+    .ball {
+      width: 60%;
+      padding-bottom: 60%;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    /*Tablet styles here*/
+    .ball {
+      width: 60%;
+      padding-bottom: 60%;
     }
   }
