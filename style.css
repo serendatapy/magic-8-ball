@@ -10,7 +10,7 @@ body {
     justify-content: center;
     flex-flow: column;
     width: 100%;
-    max-width: 960px;
+    /*max-width: 960px;*/
     margin: 0 auto;
   }
   .ball {
@@ -54,7 +54,7 @@ body {
     left:37%;
     margin-top: 30.5%;
     margin-left: 6%;
-    font: 0.55em 'Open Sans', Helvetica, Arial, sans-serif;
+    font: 2.5vw 'Open Sans', Helvetica, Arial, sans-serif;
     color: #222;
     text-transform: uppercase;
   }
@@ -99,7 +99,7 @@ body {
     }
 
     h1 {
-      font-size: 2em; /*new style*/
+      font-size: 2vw; /*new style*/
     }
 
     .ball {
