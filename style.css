@@ -40,8 +40,7 @@ body {
     margin: 0 auto;
   }
   /*
-  Look at the unplugged project for proportionate image sizing TIPS (Done)
-  Sort it out with percentages, and see if you can fix text sizing
+  To fix header and button sizing, and check different screen view, landscape
 
   */
   /*img {
@@ -98,7 +97,7 @@ body {
       font-size: 60px;
     }
 
-    h1 {
+    .answer {
       font-size: 2vw; /*new style*/
     }
 
