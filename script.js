@@ -14,7 +14,7 @@ $(document).ready(function () {
     $("#answer").text(answer); //add answer to the div
     $("#8ball").attr("src", answerImage); //activate 8 ball answer image
     $("#answer").fadeIn(4000); //fade in answer on top
-    setTimeout(this.reset, 4000);
+    //setTimeout(this.reset, 4000);
   };//end ask question
 
   magic8Ball.reset = function () {
