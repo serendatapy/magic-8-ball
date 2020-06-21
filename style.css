@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     color: #454545;
@@ -5,47 +9,45 @@ body {
     padding: 0px;
     background-color: #f8f8f8;
   }
+
 .page {
     display: flex;
     justify-content: center;
     flex-flow: column;
     width: 100%;
-    /*max-width: 960px;*/
     margin: 0 auto;
   }
+
+  header {
+    padding-top: 0.25em;
+    text-align: center;
+  }
+
+  header span {
+    font-size: 1em;
+    color: #f16059;
+  }
+
+  header h1{
+    font-size: 5vh;
+  }
+
   .ball {
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*flex-flow: column;*/
-  }
-  .ball { /*new style*/
     margin: 0 auto;
-    /*margin: 15% 3% 15% 3%;*/
     width: 80%;
     height: 0;
     padding-bottom: 80%;
     overflow: hidden;
     position: relative;
   }
-  .ball img{ /*new style*/
-    /*margin: 0 auto;*/
-    /*margin: 15% 3% 15% 3%;*/
+
+  .ball img{
     width: 100%;
     height: 85%;
     position: absolute;
     top: 0;
     left: 0;
   }
-  .button {
-    margin: 0 auto;
-  }
-  /*
-  To fix header and button sizing, and check different screen view, landscape
-
-  */
-  /*img {
-    height:285px;
-  }*/
 
   .answer {
     position:absolute;
@@ -58,30 +60,20 @@ body {
     text-transform: uppercase;
   }
 
+  .button {
+    margin: 0 auto;
+    width: 70%;
+  }
+
   #questionButton {
-    font: 26px 'Montserrat', Helvetica, Arial, sans-serif;
+    font: 3vh 'Montserrat', Helvetica, Arial, sans-serif;
     border-radius: 5px;
     border: none;
     color: #f8f8f8;
     background-color: #f16059;
-    /*padding: 10px 75px;*/
     padding: 15px 20px;
     display: block;
     margin: 0 auto;
-  }
-
-  header {
-    padding-top: 0.25em;
-    text-align: center;
-  }
-  header span {
-    /*font-size: 60px;*/
-    font-size: 1em;
-    color: #f16059;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif;
   }
 
   footer p {
@@ -96,23 +88,22 @@ body {
     header span {
       font-size: 60px;
     }
-
-    .answer {
-      font-size: 2vw; /*new style*/
-    }
-
     .ball {
       margin: 0 auto;
     }
     .ball {
-      width: 60%;
-      padding-bottom: 60%;
+      width: 55%;
+      padding-bottom: 55%;
+    }
+    .answer {
+      font-size: 2vw; /*new style*/
     }
   }
+
   @media only screen and (min-width: 1200px) {
     /*Tablet styles here*/
     .ball {
-      width: 60%;
-      padding-bottom: 60%;
+      width: 50%;
+      padding-bottom: 50%;
     }
   }
